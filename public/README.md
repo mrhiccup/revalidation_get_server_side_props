@@ -11,7 +11,7 @@ There are two api calls, which revalidate the respective pages. The error happen
 ```text
 Error revalidating: Error: Failed to revalidate /server-page-normal-rendering: Invalid response 200
 ```
-**  [`(/api/revalidate-server-page-get-server-side-props-rendering`](/api/revalidate-server-page-get-server-side-props-rendering)**
+**  [`/api/revalidate-server-page-get-server-side-props-rendering`](/api/revalidate-server-page-get-server-side-props-rendering)**
 ```text
 Error revalidating: Error: Failed to revalidate /server-page-get-server-side-props-rendering: Invalid response 200
 ```
