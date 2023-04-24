@@ -7,11 +7,13 @@ while `revalidate-server-page-get-server-side-props-rendering.js` sets the respo
 the second approach in order to cache pages using the vercel infrastructure which we have not migrated to nextjs yet.
 
 There are two api calls, which revalidate the respective pages. The error happens in both cases:
-** [`/api/revalidate-server-page-normal-rendering`](/api/revalidate-server-page-normal-rendering)**
+
+**[`/api/revalidate-server-page-normal-rendering`](/api/revalidate-server-page-normal-rendering)**
 ```text
 Error revalidating: Error: Failed to revalidate /server-page-normal-rendering: Invalid response 200
 ```
-**  [`(/api/revalidate-server-page-get-server-side-props-rendering`](/api/revalidate-server-page-get-server-side-props-rendering)**
+
+**[`(/api/revalidate-server-page-get-server-side-props-rendering`](/api/revalidate-server-page-get-server-side-props-rendering)**
 ```text
 Error revalidating: Error: Failed to revalidate /server-page: Invalid response 200
 ```
